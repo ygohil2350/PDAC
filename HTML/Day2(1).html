@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <style>
+      form {
+        display: inline;
+        align-content: center;
+        text-align: center;
+        align-items: center;
+      }
+    </style>
+    <h1 style="text-align: center">Client Details</h1>
+    <h2 style="text-align: center">
+      Enter the details of all incoming clients
+    </h2>
+    <form>
+      <label style="margin: 100px">Client Name*</label>
+      <input type="text" placeholder="Enter client Name" /><br /><br />
+      <lable style="margin: 110px">Company*</lable>
+      <input type="text" placeholder="Enter Comapny Name" /><br /><br />
+      <lable style="margin: 130px">Title</lable>
+      <input type="text" placeholder="Enter a title" /><br /><br />
+      <label style="margin: 120px">Department</label>
+      <select name="Department">
+        <option>B.Tech</option>
+        <option>M.Tech</option>
+        <option>BE</option>
+        <option>ME</option>
+        <option>Deploma</option></select
+      ><br /><br />
+      <label style="margin: 90px">Contact Prefrance*</label>
+      <input type="radio" name="contact" />Email
+      <input type="radio" name="contact" />Phone<br /><br />
+      <label style="margin: 125px">Email</label>
+      <input type="email" name="mail" placeholder="Enter a Email" /><br /><br />
+      <label style="margin: 90px">Conatct Number</label>
+      <input
+        type="number"
+        name="number"
+        placeholder="Enter a Contact number"
+      /><br /><br />
+      <label style="margin: 85px">Company website</label>
+      <input
+        type="url"
+        name="url"
+        placeholder="Enter the uri of company"
+      /><br /><br />
+      <label style="margin: 93px">Company Logo</label>
+      <input type="file" name="logo" /><br /><br />
+      <label style="margin: 11 0px"></label><input type="submit" />
+    </form>
+  </body>
+</html>

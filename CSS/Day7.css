@@ -1,0 +1,33 @@
+h1{
+    background-color: chocolate;
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+}
+span{
+    background-color: gold;
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+a{
+    font-size: 25px;
+    padding: 20px;
+    color: black;
+
+}
+a:visited{
+    color: blue;
+
+}
+a:hover{
+    color: coral;
+}
+.overflow{
+    background-color: palegoldenrod;
+    width: 400px;
+    height: 400px;
+    /* overflow: hidden;
+    overflow: visible;*/
+    overflow: scroll; 
+}

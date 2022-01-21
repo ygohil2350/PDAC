@@ -1,0 +1,71 @@
+.First{ 
+    background-color: coral;
+    text-align: left;
+    text-transform: capitalize;
+}
+.Second{
+    background-color: coral;
+    text-align: center;
+    text-transform: lowercase;
+
+}
+.Third{
+    background-color: coral;
+    text-align: right;
+    text-transform: uppercase;
+
+}
+.para{
+    text-indent: 100px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    line-height: 1.5;   
+}
+.button{
+    padding: 10px 40px;
+    background-color: gold  ;
+    box-shadow: black 5px 5px 5px;
+    font-size: 18px;
+    border-color: gold;
+    border-radius: 5px;
+    margin-left: 40px; 
+    
+}
+.input{
+    width: 400px;
+    height: 40px;
+    background-color: greenyellow;
+    box-shadow: 4px 4px 4px;
+    border-radius: 15px;
+    border: none;
+    border-color: greenyellow;
+
+}
+
+.first{
+    width:30%;
+    height:400px ;
+    float: left;
+    background-color: blanchedalmond;
+
+}
+
+.second{
+    width: 30%;
+    height: 400px;
+    float: left;
+    background-color: brown;
+
+}
+.third{
+    width: 30%;
+    height: 400px;
+    float: left;
+    background-color: chocolate;
+
+}
+
+
+
+
+

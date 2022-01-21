@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yash Gohil Photography</title>
+    <script>
+      function my() {
+        document.getElementById("result").value =
+          document.getElementById("fname").value +
+          " " +
+          document.getElementById("lname").value;
+      }
+      function clea() {
+        document.getElementById("fname").value = "";
+        document.getElementById("lname").value = "";
+        document.getElementById("result").value = "";
+      }
+    </script>
+  </head>
+  <body>
+    <p>practice to retrive from input box form js</p>
+
+    <p>First Name</p>
+
+    <input type="text" id="fname" />
+    <p>Last name</p>
+
+    <input type="text" id="lname" /><br />
+    <button onclick="my()">OK</button>
+    <button onclick="clea()">Cancel</button>
+    <input type="text" id="result" />
+  </body>
+</html>

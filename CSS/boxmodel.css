@@ -1,0 +1,48 @@
+.box{
+    background-color: burlywood;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.other{
+    padding-right: 20px;
+    padding-left: 20px;
+   
+}
+#Get{
+    padding-right: 700px;
+    padding-left: 100px;
+    text-align: center ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+}
+#main{
+    padding-top: 70px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
+}
+#getQuote{
+
+    color: white;       
+    background-color: blueviolet;
+    display: flex;
+    right: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 150px;
+    border-radius: 50px;
+}
+article{
+    padding-top: 0px;
+    text-align: center;
+}
+#text{
+    background-color: brown;
+    color: white;
+    font-family: cursive;
+      font-style: italic;
+    font-style: inherit ;
+    border-left:red solid 15px ;
+
+}

@@ -1,0 +1,62 @@
+.main{
+    background-color: blanchedalmond;
+    width: 800px;
+    height: 1000px;
+    font-size: 25px;
+    font-family: cursive;
+}
+.static{
+    background-color: crimson;
+    width: 250px;
+    height: 200px;
+    top:  100px;
+    bottom: 100px;
+    right: 100px;
+    left: 100px;
+    z-index: 1;
+}
+.relative{
+    background-color: cyan;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    top:  100px;
+    bottom: 100px;
+    left: 700px;
+    z-index: 1;
+}
+.absolute{
+    background-color: darkblue;
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    left: 700px;
+    z-index: 0;   
+}
+.main2{
+    background-color: darkorchid;
+    height: 1500px;
+    width: 800px;
+}
+.main3{
+    background-color: darkorange;
+    height:1500px;
+    width: 800px;
+
+}
+.sticky{
+    background-color: gold;
+    height: 200px;
+    width: 200px;
+    position: sticky;
+    top: 100px;
+    left: 300px;
+}
+.fixed{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    bottom: 100px;
+    left: 700px;
+}

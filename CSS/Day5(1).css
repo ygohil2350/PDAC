@@ -1,0 +1,17 @@
+.parent{
+    width: auto;
+    height: 1000px;
+    /* background-color: khaki;
+    opacity: 0.7; */
+    background-image: url(../Src/pngegg.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 500px 500px;
+    background-position: center top ;
+
+}
+.Shadow{
+    /* text-shadow: red 5px 5px 5px; */
+    /* text-shadow: red -5px -5px 5px; */
+    text-shadow: red -5px -5px 5px,red 5px 5px 5px;
+}

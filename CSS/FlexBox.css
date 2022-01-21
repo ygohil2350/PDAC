@@ -1,0 +1,21 @@
+.cuntener{
+    background-color: purple;
+    display: flex; 
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+     flex-wrap: wrap;
+    flex-direction: row-reverse;  
+}
+.child{
+    background-color: blueviolet;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 200px;
+    margin: 10px;
+    color: white;
+    size: 50px;
+
+}
