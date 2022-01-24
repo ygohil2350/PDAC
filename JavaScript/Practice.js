@@ -18,7 +18,12 @@ const arr=[23,10,34,35,3462,57,527,77]
 //     return element==32;})
 // fi===undefined?console.log("No Element found"):console.log("Element found in arr")
 
-const re=arr.reduce((curr,acc)=> acc+curr);
-console.log(re)
+// const re=arr.reduce((curr,acc)=> acc+curr);
+// console.log(re)
+// arr.sort()
+// console.log(arr)
 
+// const points = [40, 100, 1, 5, 25, 10];
+// points.sort(function(a, b){return a-b});
+// console.log(points)
 
