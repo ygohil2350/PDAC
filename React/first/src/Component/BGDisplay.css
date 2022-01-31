@@ -1,0 +1,22 @@
+.bulb{
+    background-color: yellow;
+    margin-left: 45%;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 50%;
+}
+.bulb_off{
+    background-color:white;
+    margin-left: 45%;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 50%;
+}
+
+.Y{
+    margin: 10px;
+}
