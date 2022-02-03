@@ -7,6 +7,12 @@ import BGDisplay from "./Component/BGDisplay";
 import Logo  from "./Component/Logo";
 import MyTime from "./Component/MyTime";
 import CoWrite from "./Component/CoWrite";
+import ArrayInUseState from "./Component/ArrayInUseState";
+import { datafor } from "./Component/Data";
+import Child from "./Component/Child";
+import SearchBar from "./Component/SearchBar";
+import CounterWithReduse from "./Component/CounterWithReduse";
+import Ourmember from "./Class/OurMembers";
 
 function App() {
   const data=[
@@ -18,13 +24,18 @@ function App() {
 
   return (
     <div className="App">  
-           {/* <Navbar navData={data}/>
+           <Navbar navData={data}/>
           <My/  > 
           <UseState/>
           <BGDisplay/>
           <Logo/>
-          <MyTime/> */}
-          <CoWrite/>
+          <MyTime/>         
+          <CoWrite/> 
+          <ArrayInUseState/> 
+          <Child Childata={datafor}/> 
+          <SearchBar/> 
+          <CounterWithReduse/> 
+          <Ourmember/>
     </div>
   );
 }

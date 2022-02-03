@@ -1,31 +1,45 @@
 import React, { useState } from "react";
 import { Card } from "react-bootstrap";
 const CoWrite = () => {
-  const [name, setName] = useState("Name");
-  const [number, setNumber] = useState("Number");
-  const [Email, setEmail] = useState("Email");
-  const [address, setAddress] = useState("Address");
+  const [details, setdetails] = useState({
+    name: "Yash",
+    Phone: "34384384",
+    Email: "@gmail.com",
+    Address: "Adress",
+  });
   return (
     <div>
       <div>
         Name:
-        <input text="text" onChange={(e) => setName(e.target.value)} />
+        <input
+          text="text"
+          onChange={(e) => setdetails({ ...details, name: e.target.value })}
+        />
         Phone Number:
-        <input text="text" onChange={(f) => setNumber(f.target.value)} />
+        <input
+          text="text"
+          onChange={(e) => setdetails({ ...details, Phone: e.target.value })}
+        />
         Email:
-        <input text="email" onChange={(g) => setEmail(g.target.value)} />
+        <input
+          text="email"
+          onChange={(g) => setdetails({ ...details, Email: g.target.value })}
+        />
         Address:
-        <input text="text" onChange={(h) => setAddress(h.target.value)} />
+        <input
+          text="text"
+          onChange={(h) => setdetails({ ...details, Address: h.target.value })}
+        />
       </div>
       <div>
         <Card body>
-          Name:{name}
+          Name:{details.name}
           <br />
-          number:{number}
+          number:{details.Phone}
           <br />
-          Email:{Email}
+          Email:{details.Email}
           <br />
-          Address:{address}
+          Address:{details.Address}
         </Card>
       </div>
     </div>
