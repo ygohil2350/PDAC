@@ -1,25 +1,37 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import ClassCounterChild from "./ClassCounterChild";
 
-export  class ClassCounter extends Component {
-    constructor(){
-        super();
-        this.state={
-            counter:0,
-        };
-    };
-    HandelIncriment(){
-        this.setState((prevState)=>{counter:prevState.counter+1})
-    }
-    HandelDecriment(){
-        this.setState((prevState)=>{counter:prevState.counter-1})
+export class ClassCounter extends Component {
+  state = {
+    count: 0,
+  };
 
-    }
+  //   handleClickI = (e) => {
+  //     const count = this.state.count;
+  //     this.setState({ count: count + 1 });
+  //   };
+
+  //   handleClickD = (e) => {
+  //     const count = this.state.count;
+  //     this.setState({ count: count - 1 });
+  //   };
+  HandelIncriment = () => {
+    this.setState((prevState) => ({
+      count: prevState.count + 1,
+    }));
+  };
+  HandelDecriment = () => {
+    this.setState((prevState) => ({
+      count: prevState.count - 1,
+    }));
+  };
   render() {
-    return <div>
-        <h1>count:{this.state.counter}</h1>
-        <button onClick={}>Incriment</button> 
-        <button onClick={}>Decriment</button> 
-    </div>;
-
+    return (
+      <div>
+        <ClassCounterChild countvalue={this.state.count} />
+        <button onClick={this.HandelIncriment}>Incriment</button>
+        <button onClick={this.HandelDecriment}>Decriment</button>
+      </div>
+    );
   }
 }

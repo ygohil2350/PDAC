@@ -17,6 +17,7 @@ import NavigationBar from "./Routing/NavigationBar";
 import {BrowserRouter,Route,Routes} from "react-router-dom"
 import Google from "./Routing/Google";
 import Bing from "./Routing/Bing";
+import { ClassCounter } from "./Component/ClassCounter";
 
 function App() {
   const data=[
@@ -39,15 +40,16 @@ function App() {
           <Child Childata={datafor}/> 
           <SearchBar/> 
           <CounterWithReduse/> 
-          <Ourmember/> */}          
-          {/* <BrowserRouter>
+          <Ourmember/>       
+          <BrowserRouter>
           <NavigationBar />
           <Routes>
           <Route path="google" element={<Google/>}/>
           <Route path="bing" element={<Bing/>}/>
           </Routes>
           </BrowserRouter> */}
-          
+          <ClassCounter/>
+
 
 
 
