@@ -13,6 +13,10 @@ import Child from "./Component/Child";
 import SearchBar from "./Component/SearchBar";
 import CounterWithReduse from "./Component/CounterWithReduse";
 import Ourmember from "./Class/OurMembers";
+import NavigationBar from "./Routing/NavigationBar";
+import {BrowserRouter,Route,Routes} from "react-router-dom"
+import Google from "./Routing/Google";
+import Bing from "./Routing/Bing";
 
 function App() {
   const data=[
@@ -24,7 +28,7 @@ function App() {
 
   return (
     <div className="App">  
-           <Navbar navData={data}/>
+           {/* <Navbar navData={data}/>
           <My/  > 
           <UseState/>
           <BGDisplay/>
@@ -35,7 +39,20 @@ function App() {
           <Child Childata={datafor}/> 
           <SearchBar/> 
           <CounterWithReduse/> 
-          <Ourmember/>
+          <Ourmember/> */}          
+          {/* <BrowserRouter>
+          <NavigationBar />
+          <Routes>
+          <Route path="google" element={<Google/>}/>
+          <Route path="bing" element={<Bing/>}/>
+          </Routes>
+          </BrowserRouter> */}
+          
+
+
+
+
+
     </div>
   );
 }
