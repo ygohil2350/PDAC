@@ -2,7 +2,6 @@ import React from "react";
 import { useSelector } from "react-redux";
 const FetchDataFromRedux = () => {
   const selector = useSelector((ele) => ele.sampleReducer.myState);
-  console.log("selector=>", selector);
   return (
     <div>
       <h1>Fetchin data from redux</h1>
